@@ -10,6 +10,8 @@
     <spectator.version>0.41.0</spectator.version>
     <eureka.version>1.5.6</eureka.version>
     <archaius.version>0.7.5</archaius.version>
+    <hibernate.validator.version>5.2.2.Final</hibernate.validator.version>
+    <astyanax.version>3.8.0</astyanax.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -61,6 +63,21 @@
         <groupId>com.netflix.archaius</groupId>
         <artifactId>archaius-core</artifactId>
         <version>${archaius.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-validator</artifactId>
+        <version>${hibernate.validator.version}</version>
+      </dependency>
+      <dependency>
+        <groupId></groupId>
+        <artifactId></artifactId>
+        <version>${}</version>
+      </dependency>
+      <dependency>
+        <groupId></groupId>
+        <artifactId></artifactId>
+        <version>${}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
