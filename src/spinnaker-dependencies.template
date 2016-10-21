@@ -2,7 +2,7 @@
 versions:
 # spinnaker libs
   fiat: "0.11.0"
-  kork: "1.76.0"
+  kork: "1.78.0-SNAPSHOT"
   scheduledActions: "0.37.0"
   clouddriver: "1.388.0"
 # third party
@@ -41,7 +41,7 @@ versions:
   spring: "{{org.springframework:spring-core}}"
   springBoot: "{{org.springframework.boot:spring-boot}}"
   springSecurity: "{{org.springframework.security:spring-security-core}}"
-  tomcat: "8.0.24" # TODO: 8.5 requires some more work to use
+  tomcat: "{{org.apache.tomcat.embed:tomcat-embed-core}}"
 
 groups:
   akka:
